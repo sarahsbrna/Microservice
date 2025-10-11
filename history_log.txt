@@ -1,1 +1,1 @@
-Work done on 2025-10-10T00:00:00 : feat: setup api gateway routing
+Work done on 2025-10-12T00:00:00 : feat: create buku service skeleton
