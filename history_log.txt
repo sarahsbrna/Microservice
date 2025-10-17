@@ -1,1 +1,1 @@
-Work done on 2025-10-15T00:00:00 : feat: implement mongoDB connection
+Work done on 2025-10-18T00:00:00 : fix: application.properties configuration
