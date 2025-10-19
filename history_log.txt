@@ -1,1 +1,1 @@
-Work done on 2025-10-18T00:00:00 : fix: application.properties configuration
+Work done on 2025-10-20T00:00:00 : feat: add anggota service and controller
