@@ -1,1 +1,1 @@
-Work done on 2025-10-25T00:00:00 : feat: implement peminjaman command service
+Work done on 2025-10-29T00:00:00 : feat: implement peminjaman query service
