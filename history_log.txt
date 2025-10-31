@@ -1,1 +1,1 @@
-Work done on 2025-10-29T00:00:00 : feat: implement peminjaman query service
+Work done on 2025-11-01T00:00:00 : refactor: clean up logging logic
