@@ -1,1 +1,1 @@
-Work done on 2025-11-12T00:00:00 : chore: update docker images to latest
+Work done on 2025-11-16T00:00:00 : docs: update readme and documentation
