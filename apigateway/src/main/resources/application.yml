@@ -1,0 +1,52 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: PRODUK-SERVICE
+          uri: lb://PRODUK-SERVICE
+          predicates:
+            # Perbaikan: Cocokkan '/api/produk' DAN '/api/produk/**'
+            - Path=/api/produk, /api/produk/**, /api/produk/
+
+        - id: PELANGGAN-SERVICE
+          uri: lb://PELANGGAN-SERVICE
+          predicates:
+            # Terapkan perbaikan yang sama di sini
+            - Path=/api/pelanggan, /api/pelanggan/**, /api/pelanggan/
+
+        - id: ORDER-COMMAND-SERVICE
+          uri: lb://ORDER-SERVICE
+          predicates:
+            - Path=/api/orders, /api/orders/**, /api/orders/
+            - Method=POST,PUT,DELETE
+
+        - id: ORDER-QUERY-SERVICE
+          uri: lb://ORDER-QUERY-SERVICE
+          predicates:
+            - Path=/api/orders, /api/orders/**, /api/orders/
+            - Method=GET
+
+# Konfigurasi Eureka untuk Docker (sudah benar)
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+# --- Konfigurasi Actuator & Prometheus ---
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" # Tanda kutip penting di YAML
+  endpoint:
+    health:
+      show-details: always
