@@ -19,7 +19,7 @@ public class AnggotaController {
     @ResponseBody
     public Anggota save(@RequestBody Anggota anggota) {
         // 2. Tulis Log saat ada POST request
-        log.info("Menerima request POST anggota baru. Nama: {}, Email: {}", anggota.getNama(), anggota.getEmail());
+        log.info("Menerima request POST anggota baru fix. Nama: {}, Email: {}", anggota.getNama(), anggota.getEmail());
 
         Anggota savedAnggota = anggotaService.save(anggota);
 
