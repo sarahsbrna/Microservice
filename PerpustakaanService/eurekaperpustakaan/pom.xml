@@ -8,7 +8,7 @@
         <version>3.3.0</version>
         <relativePath/>
     </parent>
-    <groupId>com.nauval.eurekaperpustakaan</groupId>
+    <groupId>com.sarah.eurekaperpustakaan</groupId>
     <artifactId>eurekaperpustakaan</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>eurekaperpustakaan</name>

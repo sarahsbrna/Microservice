@@ -1,7 +1,7 @@
-package com.nauval.peminjamanservice.peminjamanservice.controller;
+package com.sarah.peminjamanservice.peminjamanservice.controller;
 
-import com.nauval.peminjamanservice.peminjamanservice.model.Pinjaman;
-import com.nauval.peminjamanservice.peminjamanservice.service.PinjamanCommandService;
+import com.sarah.peminjamanservice.peminjamanservice.model.Pinjaman;
+import com.sarah.peminjamanservice.peminjamanservice.service.PinjamanCommandService;
 
 import jakarta.persistence.EntityNotFoundException;
 

@@ -54,4 +54,4 @@ app:
 
 logging:
   level:
-    com.nauval.rabbitmq.rabbitmq: DEBUG
+    com.sarah.rabbitmq.rabbitmq: DEBUG

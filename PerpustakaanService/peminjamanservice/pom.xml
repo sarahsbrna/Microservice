@@ -9,7 +9,7 @@
         <version>3.3.0</version>
         <relativePath/>
     </parent>
-    <groupId>com.nauval.peminjamanservice</groupId>
+    <groupId>com.sarah.peminjamanservice</groupId>
     <artifactId>peminjamanservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>peminjamanservice</name>

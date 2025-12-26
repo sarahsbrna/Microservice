@@ -1,7 +1,7 @@
-package com.nauval.peminjamanservice.peminjamanservice.controller;
+package com.sarah.peminjamanservice.peminjamanservice.controller;
 
-import com.nauval.peminjamanservice.peminjamanservice.model.PinjamanReadModel;
-import com.nauval.peminjamanservice.peminjamanservice.service.PinjamanQueryService;
+import com.sarah.peminjamanservice.peminjamanservice.model.PinjamanReadModel;
+import com.sarah.peminjamanservice.peminjamanservice.service.PinjamanQueryService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

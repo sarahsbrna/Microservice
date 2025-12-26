@@ -1,6 +1,6 @@
-package com.nauval.peminjamanservice.peminjamanservice.repository;
+package com.sarah.peminjamanservice.peminjamanservice.repository;
 
-import com.nauval.peminjamanservice.peminjamanservice.model.PinjamanReadModel;
+import com.sarah.peminjamanservice.peminjamanservice.model.PinjamanReadModel;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

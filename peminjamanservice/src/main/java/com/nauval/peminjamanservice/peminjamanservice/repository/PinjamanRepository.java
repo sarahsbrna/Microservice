@@ -1,6 +1,6 @@
-package com.nauval.peminjamanservice.peminjamanservice.repository;
+package com.sarah.peminjamanservice.peminjamanservice.repository;
 
-import com.nauval.peminjamanservice.peminjamanservice.model.Pinjaman;
+import com.sarah.peminjamanservice.peminjamanservice.model.Pinjaman;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

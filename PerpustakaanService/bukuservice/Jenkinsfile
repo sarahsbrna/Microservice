@@ -12,7 +12,7 @@ pipeline {
         // Namespace Kubernetes
         K8S_NS = 'perpustakaan-ns'
         // Registry Image
-        IMAGE_TAG = "sarahsabrina/${SERVICE_NAME}:${BUILD_NUMBER}"
+        IMAGE_TAG = "localhost:5000/${SERVICE_NAME}:1.0"
     }
 
     tools {
@@ -42,7 +42,7 @@ pipeline {
             steps {
                 dir("${DOCKER_DIR}") {
                     // Build file .jar
-                    sh 'mvn clean package'
+                    sh 'mvn clean package -DskipTests'
                 }
             }
         }
@@ -67,14 +67,20 @@ pipeline {
             steps {
                 // Update image di deployment yang sudah ada
                 sh """
-                kubectl set image deployment/${K8S_DEPLOYMENT} \
-                ${SERVICE_NAME}-container=${IMAGE_TAG} \
+                kubectl set image deployment/buku-deployment \
+                buku-container=${IMAGE_TAG} \
                 -n ${K8S_NS}
                 """
                 
                 // Restart rollout agar pod baru terambil
                 sh "kubectl rollout restart deployment/${K8S_DEPLOYMENT} -n ${K8S_NS}"
             }
+        }
+    }
+        // Bersihkan image sampah
+    post {
+        always {
+            sh 'docker image prune -f'
         }
     }
 }

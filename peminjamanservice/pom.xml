@@ -11,7 +11,7 @@
 	</parent>
 	
 	<!-- Detail proyek UTS Anda -->
-	<groupId>com.nauval.peminjamanservice</groupId>
+	<groupId>com.sarah.peminjamanservice</groupId>
 	<artifactId>pinjamanservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>peminjamanservice</name>

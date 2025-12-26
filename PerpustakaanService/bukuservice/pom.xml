@@ -9,7 +9,7 @@
         <version>3.3.0</version>
         <relativePath/>
     </parent>
-    <groupId>com.nauval.bukuservice</groupId>
+    <groupId>com.sarah.bukuservice</groupId>
     <artifactId>bukuservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>bukuservice</name>

@@ -8,7 +8,7 @@
 		<version>3.3.0</version>
 		<relativePath/>
 	</parent>
-	<groupId>com.nauval.peminjamanqueryservice</groupId>
+	<groupId>com.sarah.peminjamanqueryservice</groupId>
 	<artifactId>peminjamanqueryservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>peminjamanqueryservice</name>

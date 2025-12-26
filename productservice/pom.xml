@@ -8,7 +8,7 @@
 		<version>3.3.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.nauval.productservice</groupId>
+	<groupId>com.sarah.productservice</groupId>
 	<artifactId>productservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>productservice</name>

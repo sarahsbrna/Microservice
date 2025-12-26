@@ -1,8 +1,8 @@
-package com.nauval.peminjamanservice.peminjamanservice.service;
+package com.sarah.peminjamanservice.peminjamanservice.service;
 
-import com.nauval.peminjamanservice.peminjamanservice.dto.PinjamanEvent;
-import com.nauval.peminjamanservice.peminjamanservice.model.Pinjaman;
-import com.nauval.peminjamanservice.peminjamanservice.repository.PinjamanRepository;
+import com.sarah.peminjamanservice.peminjamanservice.dto.PinjamanEvent;
+import com.sarah.peminjamanservice.peminjamanservice.model.Pinjaman;
+import com.sarah.peminjamanservice.peminjamanservice.repository.PinjamanRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.nauval.peminjamanservice.peminjamanservice;
+package com.sarah.peminjamanservice.peminjamanservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

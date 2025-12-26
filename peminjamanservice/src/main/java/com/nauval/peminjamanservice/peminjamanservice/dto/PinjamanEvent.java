@@ -1,6 +1,6 @@
-package com.nauval.peminjamanservice.peminjamanservice.dto;
+package com.sarah.peminjamanservice.peminjamanservice.dto;
 
-import com.nauval.peminjamanservice.peminjamanservice.model.Pinjaman;
+import com.sarah.peminjamanservice.peminjamanservice.model.Pinjaman;
 
 public class PinjamanEvent {
 

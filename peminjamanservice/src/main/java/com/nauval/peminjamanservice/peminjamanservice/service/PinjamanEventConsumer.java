@@ -1,8 +1,8 @@
-package com.nauval.peminjamanservice.peminjamanservice.service;
+package com.sarah.peminjamanservice.peminjamanservice.service;
 
-import com.nauval.peminjamanservice.peminjamanservice.dto.PinjamanEvent;
-import com.nauval.peminjamanservice.peminjamanservice.model.PinjamanReadModel;
-import com.nauval.peminjamanservice.peminjamanservice.repository.PinjamanReadModelRepository;
+import com.sarah.peminjamanservice.peminjamanservice.dto.PinjamanEvent;
+import com.sarah.peminjamanservice.peminjamanservice.model.PinjamanReadModel;
+import com.sarah.peminjamanservice.peminjamanservice.repository.PinjamanReadModelRepository;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Service;
 

@@ -8,7 +8,7 @@
 		<version>3.3.0</version>
 		<relativePath/>
 	</parent>
-	<groupId>com.nauval.notificationservice</groupId>
+	<groupId>com.sarah.notificationservice</groupId>
 	<artifactId>notificationservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>notificationservice</name>

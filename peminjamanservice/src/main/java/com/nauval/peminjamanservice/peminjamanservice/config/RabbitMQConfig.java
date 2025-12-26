@@ -1,4 +1,4 @@
-package com.nauval.peminjamanservice.peminjamanservice.config;
+package com.sarah.peminjamanservice.peminjamanservice.config;
 
 import org.springframework.amqp.core.*;
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;

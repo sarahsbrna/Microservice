@@ -8,7 +8,7 @@
 		<version>3.3.1</version>
 		<relativePath/>
 	</parent>
-	<groupId>com.nauval.jadwal</groupId>
+	<groupId>com.sarah.jadwal</groupId>
 	<artifactId>jadwal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jadwal-service</name>

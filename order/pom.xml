@@ -9,7 +9,7 @@
         <version>3.3.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.nauval.order</groupId>
+    <groupId>com.sarah.order</groupId>
     <artifactId>order</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>order</name>

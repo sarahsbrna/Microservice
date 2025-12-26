@@ -1,4 +1,4 @@
-package com.nauval.peminjamanservice.peminjamanservice.model;
+package com.sarah.peminjamanservice.peminjamanservice.model;
 
 import jakarta.persistence.*;
 import lombok.*;

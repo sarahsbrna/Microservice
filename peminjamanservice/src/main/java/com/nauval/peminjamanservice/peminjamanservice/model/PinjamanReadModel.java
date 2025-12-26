@@ -1,4 +1,4 @@
-package com.nauval.peminjamanservice.peminjamanservice.model;
+package com.sarah.peminjamanservice.peminjamanservice.model;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
